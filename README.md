@@ -6,3 +6,8 @@ A simple one-class game written in Java.
 
 Instructions:
 Just download and stick it into an eclipse project... and run.
+
+Game-Play:
+  >Up, Down, Left and Right - Arrow Keys
+  >Space                    - Shoot
+  >W, D                     - Accelerate
