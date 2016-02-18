@@ -505,7 +505,7 @@ public class Main  extends JFrame {
 		catch (UnknownHostException e)	{if(debugEnabled){e.printStackTrace();}}
 		
 		try {
-			String makeUrl = "http://ata.mygamesonline.org/send.php?name="+name+"&pcname="+hostname+"&score="+score+"&password=accele787&gamewon="+gameWon;
+			String makeUrl = "send.php?name="+name+"&pcname="+hostname+"&score="+score+"&password=accele787&gamewon="+gameWon;
 			System.out.println(makeUrl);
 			URL url = new URL(makeUrl);
 		    HttpURLConnection conn = (HttpURLConnection) url.openConnection();
